@@ -12,7 +12,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.config.productionTip = false
 
-vue.use(BootstrapVue)
+Vue.use(BootstrapVue)
 
 new Vue({
   router,
