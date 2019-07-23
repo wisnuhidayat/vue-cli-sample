@@ -12,11 +12,14 @@
       </router-link> |
       <router-link to="/films">
         Films
+      </router-link> |
+      <router-link to="/people">
+        People
       </router-link>
     </div>
     <router-view />
     <footer class="footer">
-      Copyright © 2019 by Irfan Maulana
+      Copyright © 2019 by Irfan Maulana & Wisnu Dwi Hidayat
     </footer>
   </div>
 </template>
@@ -28,6 +31,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: aqua;
 }
 
 .nav {
@@ -36,7 +40,7 @@
     font-weight: bold;
     color: #2c3e50;
     &.router-link-exact-active {
-      color: #42b983;
+      color: red;
     }
   }
 }

@@ -5,11 +5,6 @@
     <h2>Director: {{ film.director }}</h2>
     <h2>Producer: {{ film.producer }}</h2>
     <h2>Rating: {{ film.rt_score }}</h2>
-    <h2>People: {{ film.people }}</h2>
-    <h2>Species: {{ film.species }}</h2>
-    <h2>Locations: {{ film.locations }}</h2>
-    <h2>Vehicles: {{ film.vehicles }}</h2>
-    <h2>Link: {{ film.url }}</h2>
     <p>{{ film.description }}</p>
 
     <router-link to="/films">

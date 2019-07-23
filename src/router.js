@@ -27,6 +27,16 @@ export default new Router({
       path: '/film/:id',
       name: 'filmDetail',
       component: () => import(/* webpackChunkName: "page-film-detail" */ './views/FilmDetail.vue')
+    },
+    {
+      path: '/people',
+      name: 'people',
+      component: () => import(/* webpackChunkName: "page-people" */ './views/People.vue')
+    },
+    {
+      path: '/people/:id',
+      name: 'peopleDetail',
+      component: () => import(/* webpackChunkName: "page-people-detail" */ './views/PeopleDetail.vue')
     }
   ]
 })
